@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-IMM News Network</title>
+    <link rel="icon" href="faviconimage.webp" type="image/webp">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <img src="faviconimage.webp" width="100" height="100" style="border-radius: 60px">
+    <h1>IMM News Network</h1>
+    <nav>
+        <ul>
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="about.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>  
+
+<main>
+    <h2>Get In Touch With Us</h2>
+    <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
+    
+    <form action="/process-contact" method="POST" style="background-color: rgb(211, 243, 251); width: 800px; padding: 10px;" >
+        <p>Name: <input type="text" label="name" required></p>
+        <p>Email: <input type="email" label="email" required></p>
+        
+        <fieldset>
+            <legend>What would you like to read about?</legend>
+            <input type="checkbox" name="interests" value="industry"> Industry
+            <input type="checkbox" name="interests" value="technical"> Technical  
+            <input type="checkbox" name="interests" value="career"> Career
+        </fieldset>
+
+        <p>Your Role: 
+            <select name="role">
+                <option value="writer">Writer</option>
+                <option value="contributor">Contributor</option>
+                <option value="administrator">Administrator</option>
+            </select>
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+
+ <footer>
+    <p> Accept cookies for better user experience.<br />
+    <a href="#">Accept Cookies</a>
+    </p>
+  </footer>
+
+
+
+
+</body>
+</html>

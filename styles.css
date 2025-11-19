@@ -12,13 +12,13 @@ body{
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  width: 95%;
+  width: 92%;
 
 
 }
 
 h1{
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 h2{
@@ -37,7 +37,7 @@ h2{
 }
 
 nav{
-  background: linear-gradient(to left ,azure, rgb(167, 177, 255));
+  /* background: linear-gradient(to left ,azure, rgb(167, 177, 255)); */
   padding: 0.1em;
   font-weight: bold;
 }
@@ -90,5 +90,69 @@ nav ul {
 
 .picture{
   margin:1em;
+}
 
+body.article  main{
+  background-color:rgba(251, 249, 249, 0.503);
+  padding: 1em;
+  color: black;
+}
+
+body.fearticle  main{
+  background-color:rgba(251, 249, 249, 0.503);
+  padding: 1em;
+  color: black;
+}
+ 
+.home{
+  background-color:rgba(251, 249, 249, 0.503);
+  padding: 1em;
+  color: black;
+}
+
+section{
+  margin: 1em;
+  border-style: hidden;
+  padding: .5em;
+}
+
+body.tech main{
+  background-color:rgba(0, 0, 0, 0.456);
+  color:white;
+  padding: 1em;
+}
+
+body.career main{
+  background-color:rgba(128, 0, 128, 0.629);
+  color:white;
+  padding: 1em;
+}
+
+body.career{
+  width:fit-content
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to left ,azure, rgb(167, 177, 255));
+    padding:1em;
+    display: flex;
+    justify-content: left;
+    gap: 3em;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding:1em;
+    display: flex;
+    justify-content: left;
+    gap: 3em;
+    height:2.8em;
+}
+
+.link{
+  color: antiquewhite;
 }

@@ -11,9 +11,8 @@ body{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
-
   color: white;
+  width: 95%;
 
 
 }
@@ -34,7 +33,7 @@ h2{
   border-color: rgb(22, 70, 122);
   padding: 2em;
   border-style:solid;
-  background-color:rgb(79, 104, 128);
+  background-color:rgba(26, 63, 97, 0.436);
 }
 
 nav{
@@ -50,4 +49,46 @@ nav ul {
   gap: 3em;
 }
 
+.audience{
+  background-color:rgba(26, 63, 97, 0.436);
+  padding: 1em;
+  margin: 1em;
+  width: 50%;
+  border-spacing:.5em;
+  border: 0.1em;
+  border-color: rgb(22, 70, 122);
+  border-style: solid;
 
+}
+
+.audience td{
+    padding: 1em;
+    text-align: center;
+    border-width: .1em;
+    border-style: solid;
+    border-color:  rgb(22, 70, 122);
+}
+
+.audience th {
+    text-align: center;
+    border-width: .1em;
+    border-style: solid;
+    border-color: rgb(22, 70, 122);
+    padding: 1em;
+    margin: 1em;
+    
+}
+
+.video{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: azure;
+  border-width: 5px;
+  width:50%;
+  margin:1em;
+}
+
+.picture{
+  margin:1em;
+
+}

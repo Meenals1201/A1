@@ -1,0 +1,53 @@
+body{
+  
+  background-color: grey;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  margin:1em;
+  background-image: url("plain.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+  color: white;
+
+
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+  font-size: 1.1em;
+}
+
+.form{
+ 
+  margin: 1em;
+  width: fit-content;
+  border: 0.1em;
+  border-color: rgb(22, 70, 122);
+  padding: 2em;
+  border-style:solid;
+  background-color:rgb(79, 104, 128);
+}
+
+nav{
+  background: linear-gradient(to left ,azure, rgb(167, 177, 255));
+  padding: 0.1em;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  gap: 3em;
+}
+
+
